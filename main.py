@@ -2,6 +2,7 @@ from art import logo
 import random
 
 def number_game():
+  print(logo)
   print("Welcome to the number game! Try and guess my number.")
   mode = input("Which mode would you prefer? easy (10 guesses) or hard (5 guesses)\n").lower()
   while mode != "easy" and mode != "hard":
