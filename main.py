@@ -16,7 +16,7 @@ def number_game():
     choice = int(input("OK. Pick a number between 1 and 100."))
   if choice == number:
     win = input("You got it! Play again?")
-    while win != "yes" and mode != "no":
+    while win != "yes" and win != "no":
       input("Invalid input. Please type yes or no.")
     if win == "yes":
       number_game()
